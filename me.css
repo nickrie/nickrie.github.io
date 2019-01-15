@@ -1,9 +1,12 @@
 .viewport {
-  height: 80vh;
+  margin-top: 4vw;
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-top: 5vh;
-  margin-bottom: 10vh;
+  margin-bottom: 4vw;
+}
+
+.jumbo-inner {
+  height: 50vh;
 }
 
 .me-jumbotron {
@@ -11,6 +14,7 @@
   background-size: cover;
   background-position: 20% 65%;
   padding: 1em 1em 1em 1em;
+  background-color: red;
 }
 
 .face {

@@ -1,0 +1,23 @@
+.viewport {
+  height: 80vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.me-jumbotron {
+  background-image: url('me.jpg');
+  background-size: cover;
+  background-position: 20% 65%;
+  padding: 1em 1em 1em 1em;
+}
+
+.icons a {
+  color: black;
+  font-size: 5vw;
+}
+.icons a:hover {
+  color: #999;
+  text-shadow: 2px 2px 3px black;
+}

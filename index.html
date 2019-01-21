@@ -22,61 +22,99 @@
 
 <body>
 
-  <div class="viewport">
+  <nav id="navbar" class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Nick Riemondi</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#about">About</a>
+        <a class="nav-item nav-link" href="#code">Code</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="viewport" data-spy="scroll" data-target="#navbar">
 
     <div class="jumbotron jumbotro-fluid me-jumbotron w-100 h-75 flex d-none d-sm-block">
       <div class="jumbo-inner">
       </div>
     </div>
 
-    <div class="text-center">
-      <h1 class="display-3">Nick Riemondi</h1>
-      <p class="lead me-title font-weight-bold">Senior Full Stack Developer</p>
+    <div id="about" class="text-center">
+      <h1 class="display-3">About</h1>
     </div>
-
-    <div class="row">
+    
+    <div class="row mb-5">
       <div class="text-center col-sm-4">
         <img src="face.jpg" class="face img-fluid img-thumbnail rounded-circle" alt="My Face" title="My Face">
+        <div class="icons">
+          <a href="https://www.linkedin.com/in/nickriemondi/" class="pr-3" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/nickrie/" class="pr-3" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="mailto:nick@riemondi.com"><i class="fas fa-envelope"></i></a>
+        </div>
       </div>
-      <div class="col-sm-8">
+      <div  class="col-sm-8">
 
-        <p class="lead">
-          Senior Full Stack Web Application Developer with over 17 years of experience
-          designing and building web applications for large scale retail and wholesale
-          systems using Linux, Apache, PHP, HTML, Javascript and a variety of database
-          backends (PostgreSQL, Oracle, MySQL).
-        </p>
-        <p class="lead">
-          After 17 years in the industry my family and I fulfilled a long-time dream in
-          2018 by taking a year long sabbatical to travel and spend time together before
-          my son started Kindergarten. We visited 24 National Parks!
-        </p>
-        <p class="lead">
-          Since returning home I've been having a blast deep diving into a wide variety
-          of modern tools and frameworks (AngularJS, ReactJS, NodeJS, Laravel, MongoDB, Webpack, Docker).
-          <i>I'm currently seeking employment opportunities in the Fort Worth area or remote.</i>
-        </p>
-
+        <div>
+          <p class="lead">
+            <b>Senior Full Stack Developer</b> with over 17 years of experience
+            designing and building web applications for large scale retail and wholesale
+            systems.
+          </p>
+          <p>
+            <i>I'm currently seeking employment opportunities in the Fort Worth area or remote.</i>
+          </p>
+          <p class="lead">
+            After 17 years in the industry my family and I fulfilled a long-time dream in
+            2018 by taking a year long sabbatical to travel and spend time together before
+            my son started Kindergarten. We visited 24 National Parks!
+          </p>
+          <p class="lead">
+            Since returning home I've been having a blast deep diving into a wide variety
+            of modern tools and frameworks.
+          </p>
+        </div>
+            
       </div>
     </div>
 
+    <div id="code" class="text-center mb-5">
+      <h1 class="display-3">Sample Code</h1>
 
-    <div class="icons text-center mb-4">
-      <a href="https://www.linkedin.com/in/nickriemondi/" class="pr-3" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/nickrie/" class="pr-3" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="mailto:nick@riemondi.com"><i class="fas fa-envelope"></i></a>
+      <div class="card bg-light">
+        <div class="card-body">
+          <h5 class="card-title">Time Tracker v1</h5>
+          <p class="card-text">
+            A quick time tracking tool built with Javascript ES6 classes,
+            LocalStorage, Bootstrap 4, and FontAwesome.
+          </p>
+          <a href="time-tracker-v1/" class="btn btn-secondary">
+            <i class="fas fa-play"></i>
+            Try it out!
+          </a>
+          <a href="https://github.com/nickrie/time-tracker" class="btn btn-secondary" target="_blank">
+            <i class="fab fa-github"></i>
+            View the Code
+          </a>
+        </div>
+      </div>
+
+
     </div>
-
+  
   </div>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- bootstrap js -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
+  <!-- app js -->
+  <script src="app.js"></script>
 </body>
 
 </html>

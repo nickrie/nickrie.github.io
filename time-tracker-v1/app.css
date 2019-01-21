@@ -1,0 +1,26 @@
+#task-list .row-task:hover {
+  background-color: #EEE;
+}
+
+.fa-stop {
+  color: red;
+}
+.fa-play {
+  color: #18BC9C;
+}
+
+.fa-pencil-alt {
+  padding: 0 3px;
+}
+.fa-pencil-alt:hover {
+  color: blue;
+  padding: 0 3px;
+}
+
+.fa-trash {
+  padding: 0 3px;
+}
+.fa-trash:hover {
+  color: red;
+  padding: 0 3px;
+}

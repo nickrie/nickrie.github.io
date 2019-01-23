@@ -37,6 +37,18 @@ const cheats = [
     ]
   },
   {
+    id: 'mockup',
+    name: 'Mockup',
+    links: [
+      {
+        name: 'JSONPlaceholder',
+        href: 'https://jsonplaceholder.typicode.com/',
+        desc:
+          'Fake Online REST API for Testing and Prototyping, or mock your own with a local JSON file using: npm install json-server'
+      }
+    ]
+  },
+  {
     id: 'vscode',
     name: 'VS Code Extensions',
     links: [

@@ -1,5 +1,42 @@
 const cheats = [
   {
+    id: 'design',
+    name: 'Design',
+    links: [
+      {
+        name: 'Bootswatch',
+        href: 'https://bootswatch.com/',
+        desc: 'Free themes for Bootstrap'
+      },
+      {
+        name: 'Font Awesome',
+        href: 'https://fontawesome.com/',
+        desc: 'Icons to replace Bootstrap 3 glyphicons'
+      },
+      {
+        name: 'Materialize',
+        href: 'https://materializecss.com/',
+        desc: 'A modern responsive front-end framework based on Material Design'
+      },
+      {
+        name: 'Skeleton',
+        href: 'http://getskeleton.com/',
+        desc: 'A dead simple, responsive boilerplate.'
+      },
+      {
+        name: 'Sweet Alert',
+        href: 'https://sweetalert2.github.io/',
+        desc:
+          "A beautiful, responsive, customizable, accessible (wai-aria) replacement for javascript's popup boxes"
+      },
+      {
+        name: 'Unsplash',
+        href: 'https://source.unsplash.com/',
+        desc: 'Simple embedding of free random images of any size'
+      }
+    ]
+  },
+  {
     id: 'vscode',
     name: 'VS Code Extensions',
     links: [
@@ -34,37 +71,6 @@ const cheats = [
         href:
           'https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode',
         desc: 'VS Code plugin for prettier/prettier'
-      }
-    ]
-  },
-  {
-    id: 'design',
-    name: 'Design',
-    links: [
-      {
-        name: 'Font Awesome',
-        href: 'https://fontawesome.com/',
-        desc: 'Icons to replace Bootstrap 3 glyphicons'
-      },
-      {
-        name: 'Bootswatch',
-        href: 'https://bootswatch.com/',
-        desc: 'Free themes for Bootstrap'
-      },
-      {
-        name: 'Unsplash',
-        href: 'https://source.unsplash.com/',
-        desc: 'Simple embedding of free random images of any size'
-      },
-      {
-        name: 'Materialize',
-        href: 'https://materializecss.com/',
-        desc: 'A modern responsive front-end framework based on Material Design'
-      },
-      {
-        name: 'Sweet Alert',
-        href: 'https://sweetalert2.github.io/',
-        desc: 'A beautiful, responsive, customizable, accessible (wai-aria) replacement for javascript\'s popup boxes'
       }
     ]
   }

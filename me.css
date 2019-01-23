@@ -33,3 +33,7 @@ body {
   color: #999;
   text-shadow: 2px 2px 3px black;
 }
+
+dd {
+  margin-left: 30px;
+}

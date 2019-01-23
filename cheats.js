@@ -23,6 +23,17 @@ const cheats = [
     ]
   },
   {
+    id: 'data',
+    name: 'Data',
+    links: [
+      {
+        name: 'Firebase',
+        href: 'https://firebase.google.com/',
+        desc: 'Google cloud based data storage'
+      }
+    ]
+  },
+  {
     id: 'deploy',
     name: 'Deploy',
     links: [
@@ -238,19 +249,8 @@ const cheats = [
     ]
   },
   {
-    id: 'data',
-    name: 'Data',
-    links: [
-      {
-        name: 'Firebase',
-        href: 'https://firebase.google.com/',
-        desc: 'Google cloud based data storage'
-      }
-    ]
-  },
-  {
     id: 'vscode',
-    name: 'VS Code Extensions',
+    name: 'VS Code',
     links: [
       {
         name: 'Bracket Pair Colorizer',

@@ -4,11 +4,11 @@ $('body').scrollspy({ target: '#navbar' });
 
 function offsetAnchor() {
   if (location.hash.length !== 0) {
-    window.scrollTo(window.scrollX, window.scrollY - 70);
+    window.scrollTo(window.scrollX, window.scrollY + 20);
   }
 }
 
-$(document).on('click', 'a[href^="#"]', function(event) {
+$(document).on('click', 'a[href^="#tag-"]', function(event) {
   window.setTimeout(function() {
     offsetAnchor();
   }, 0);

@@ -60,6 +60,12 @@ const cheats = [
         desc: 'Code snippets for JavaScript in ES6 syntax'
       },
       {
+        name: 'StandardJS - JavaScript Standard Style',
+        href:
+          'https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs',
+        desc: 'Integrates JavaScript Standard Style into VS Code'
+      },
+      {
         name: 'Live Server',
         href:
           'https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer',
@@ -71,6 +77,29 @@ const cheats = [
         href:
           'https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode',
         desc: 'VS Code plugin for prettier/prettier'
+      }
+    ]
+  },
+  {
+    id: 'courses',
+    name: 'Courses',
+    links: [
+      {
+        name: 'Bootstrap 4 From Scratch With 5 Projects',
+        href: 'https://www.udemy.com/bootstrap-4-from-scratch-with-5-projects/',
+        desc: 'In Progress...'
+      },
+      {
+        name: 'Modern JavaScript From The Beginning',
+        href: 'https://www.udemy.com/modern-javascript-from-the-beginning/',
+        desc:
+          '<a href="https://www.udemy.com/certificate/UC-6K4LFQ48/"><i class="fas fa-trophy"></i></a> Completed!',
+        descHref: ''
+      },
+      {
+        name: 'React Front to Back',
+        href: 'https://www.udemy.com/react-front-to-back/',
+        desc: 'In Progress...'
       }
     ]
   }
@@ -105,7 +134,8 @@ cheats.forEach(group => {
 
   const aGroup = document.createElement('a');
   aGroup.classList =
-    'list-group-item list-group-item-action' + (isFirstGroup ? ' active' : '');
+    'list-group-item list-group-item-action list-group-item-light' +
+    (isFirstGroup ? ' active' : '');
   aGroup.id = `list-${group.id}-list`;
   aGroup.setAttribute('data-toggle', 'list');
   aGroup.href = `#list-${group.id}`;
@@ -154,9 +184,7 @@ cheats.forEach(group => {
     // <dd>
 
     elDd = document.createElement('dd');
-
-    elDdText = document.createTextNode(link.desc);
-    elDd.appendChild(elDdText);
+    elDd.innerHTML = link.desc;
 
     elDl.appendChild(elDt);
     elDl.appendChild(elDd);

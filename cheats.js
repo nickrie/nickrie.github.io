@@ -61,7 +61,8 @@ const cheats = [
       {
         name: 'Kubernetes',
         href: 'https://kubernetes.io/',
-        desc: 'Open-source system for automating deployment, scaling, and management of containerized applications'
+        desc:
+          'Open-source system for automating deployment, scaling, and management of containerized applications'
       },
       {
         name: 'Netlify',
@@ -97,7 +98,7 @@ const cheats = [
       {
         name: 'Skeleton',
         href: 'http://getskeleton.com/',
-        desc: 'A dead simple, responsive boilerplate.'
+        desc: 'A dead simple, responsive boilerplate'
       },
       {
         name: 'Sweet Alert',
@@ -117,7 +118,7 @@ const cheats = [
     name: 'Javascript',
     links: [
       {
-        name: 'axios',
+        name: 'Axios',
         href: 'https://www.npmjs.com/package/axios',
         desc: 'Promise based HTTP client for the browser and node.js'
       },
@@ -238,7 +239,7 @@ const cheats = [
         name: 'JSONPlaceholder',
         href: 'https://jsonplaceholder.typicode.com/',
         desc:
-          'Fake Online REST API for Testing and Prototyping, or mock your own with a local JSON file using: npm install json-server'
+          'Online REST API for Testing and Prototyping, or mock your own with a local JSON file using: npm install json-server'
       },
       {
         name: 'Karma',

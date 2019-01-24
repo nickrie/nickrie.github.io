@@ -27,6 +27,11 @@ const cheats = [
     name: 'Data',
     links: [
       {
+        name: 'DynamoDB',
+        href: 'https://aws.amazon.com/dynamodb/',
+        desc: 'AWS hosted NoSQL database'
+      },
+      {
         name: 'Firebase',
         href: 'https://firebase.google.com/',
         desc: 'Google cloud based data storage'
@@ -51,6 +56,11 @@ const cheats = [
         name: 'Gulp',
         href: 'https://gulpjs.com/',
         desc: 'JS task runner'
+      },
+      {
+        name: 'Kubernetes',
+        href: 'https://kubernetes.io/',
+        desc: 'Open-source system for automating deployment, scaling, and management of containerized applications'
       },
       {
         name: 'Netlify',
@@ -154,20 +164,13 @@ const cheats = [
         href: 'http://javascript.info/'
       },
       {
-        name: 'MySQL',
-        href: 'https://dev.mysql.com/doc/'
+        name: 'Media Queries',
+        href:
+          'https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries'
       },
       {
         name: 'Node',
         href: 'https://nodejs.org/en/docs/'
-      },
-      {
-        name: 'Oracle',
-        href: 'https://docs.oracle.com/en/'
-      },
-      {
-        name: 'PostgreSQL',
-        href: 'https://www.postgresql.org/docs/'
       },
       {
         name: 'React',
@@ -194,12 +197,6 @@ const cheats = [
         desc: "Redux DevTools for debugging application's state changes"
       },
       {
-        name: 'JSX',
-        sub: 'Documentation',
-        href: 'https://reactjs.org/docs/jsx-in-depth.html',
-        desc: 'JSX Overview with examples'
-      },
-      {
         name: 'classnames',
         sub: 'NPM',
         href: 'https://www.npmjs.com/package/classnames',
@@ -218,6 +215,12 @@ const cheats = [
         href: 'https://www.npmjs.com/package/react-router-dom',
         desc:
           'DOM bindings for <a href="https://reacttraining.com/react-router/">React Router</a>'
+      },
+      {
+        name: 'JSX',
+        sub: 'References',
+        href: 'https://reactjs.org/docs/jsx-in-depth.html',
+        desc: 'JSX Overview with examples'
       }
     ]
   },

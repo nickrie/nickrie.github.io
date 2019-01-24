@@ -1,3 +1,4 @@
+// Cheat Sheet link definitions object
 const cheats = [
   {
     id: 'courses',
@@ -296,6 +297,8 @@ const cheats = [
     ]
   }
 ];
+
+// Build the Cheat Sheet layout using the above object
 
 /*
   {

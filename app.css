@@ -3,22 +3,24 @@ body {
 }
 
 .viewport {
-  margin-top: 100px;
+  margin-top: 65px;
   margin-left: 10vw;
   margin-right: 10vw;
   margin-bottom: 4vw;
 }
 
+.jumbotron {
+}
 .jumbo-inner {
   height: 50vh;
 }
-
 .me-jumbotron {
   background-image: url('me.jpg');
   background-size: cover;
   background-position: 20% 65%;
   padding: 1em 1em 1em 1em;
   background-color: red;
+  margin-top: 80px;
   margin-bottom: 0px;
 }
 

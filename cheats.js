@@ -67,12 +67,17 @@ const cheats = [
       {
         name: 'Netlify',
         href: 'https://www.netlify.com/',
-        desc: 'All-in-one platform for automating modern web projects'
+        desc: 'All-in-one platform for hosting modern web projects'
       },
       {
         name: 'Webpack',
         href: 'https://webpack.js.org/concepts/',
         desc: 'Module bundler'
+      },
+      {
+        name: 'Zeit Now',
+        href: 'https://zeit.co/now',
+        desc: 'Hosting / serverless deployment'
       }
     ]
   },
@@ -227,6 +232,49 @@ const cheats = [
     ]
   },
   {
+    id: 'redux',
+    name: 'Redux',
+    links: [
+      {
+        name: 'firebase',
+        sub: 'NPM',
+        href: 'https://www.npmjs.com/package/firebase',
+        desc: 'Firebase JavaScript library for web and Node.j'
+      },
+      {
+        name: 'redux',
+        sub: 'NPM',
+        href: 'https://www.npmjs.com/package/redux',
+        desc: 'A predictable state container for JavaScript apps'
+      },
+      {
+        name: 'react-redux',
+        sub: 'NPM',
+        href: 'https://www.npmjs.com/package/react-redux',
+        desc: 'Official React bindings for Redux'
+      },
+      {
+        name: 'react-redux-firebase',
+        sub: 'NPM',
+        href: 'https://www.npmjs.com/package/react-redux-firebase',
+        desc: 'Redux bindings for Firebase'
+      },
+      {
+        name: 'redux-firestore',
+        sub: 'NPM',
+        href: 'https://www.npmjs.com/package/redux-firestore',
+        desc:
+          'Redux bindings for Firestore, provides low-level API used in other libraries such as react-redux-firebase'
+      },
+      {
+        name: 'redux-thunk',
+        sub: 'NPM',
+        href: 'https://www.npmjs.com/package/redux-thunk',
+        desc: 'Thunk middleware for Redux'
+      }
+    ]
+  },
+  {
     id: 'test',
     name: 'Testing',
     links: [
@@ -259,12 +307,14 @@ const cheats = [
     links: [
       {
         name: 'Bracket Pair Colorizer',
+        sub: 'Extensions',
         href:
           'https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer',
         desc: 'A customizable extension for colorizing matching brackets'
       },
       {
         name: 'ES7 React/Redux/GraphQL/React-Native snippets',
+        sub: 'Extensions',
         href:
           'https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets',
         desc:
@@ -272,18 +322,21 @@ const cheats = [
       },
       {
         name: 'JavaScript (ES6) code snippets',
+        sub: 'Extensions',
         href:
           'https://marketplace.visualstudio.com/items?itemName=xabikos.javascriptsnippets',
         desc: 'Code snippets for JavaScript in ES6 syntax'
       },
       {
         name: 'StandardJS - JavaScript Standard Style',
+        sub: 'Extensions',
         href:
           'https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs',
         desc: 'Integrates JavaScript Standard Style into VS Code'
       },
       {
         name: 'Live Server',
+        sub: 'Extensions',
         href:
           'https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer',
         desc:
@@ -291,6 +344,7 @@ const cheats = [
       },
       {
         name: 'Prettier - Code formatter',
+        sub: 'Extensions',
         href:
           'https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode',
         desc: 'VS Code plugin for prettier/prettier'

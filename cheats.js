@@ -1,6 +1,33 @@
 // Cheat Sheet link definitions object
 const cheats = [
   {
+    id: 'css',
+    name: 'CSS/SaSS',
+    links: [
+      {
+        name: 'Flexbox',
+        href: 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/',
+        desc: 'Quick reference guide'
+      },
+      {
+        name: 'Koala',
+        href: 'http://koala-app.com/',
+        desc: 'GUI app for Less/SaSS compilation'
+      },
+      {
+        name: 'Media Queries',
+        href:
+          'https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries',
+        desc: 'MDN documentation'
+      },
+      {
+        name: 'SaSS',
+        href: 'https://sass-lang.com/',
+        desc: 'CSS pre-compiler'
+      }
+    ]
+  },
+  {
     id: 'courses',
     name: 'Courses',
     links: [
@@ -91,6 +118,11 @@ const cheats = [
         desc: 'Free themes for Bootstrap'
       },
       {
+        name: 'Cleave.js',
+        href: 'https://nosir.github.io/cleave.js/',
+        desc: 'Input formatting library'
+      },
+      {
         name: 'Font Awesome',
         href: 'https://fontawesome.com/',
         desc: 'Icons to replace Bootstrap 3 glyphicons'
@@ -99,6 +131,11 @@ const cheats = [
         name: 'Materialize',
         href: 'https://materializecss.com/',
         desc: 'A modern responsive front-end framework based on Material Design'
+      },
+      {
+        name: 'Popmotion',
+        href: 'https://popmotion.io/pure/',
+        desc: 'Animation library'
       },
       {
         name: 'Skeleton',
@@ -112,6 +149,11 @@ const cheats = [
           "A beautiful, responsive, customizable, accessible (wai-aria) replacement for javascript's popup boxes"
       },
       {
+        name: 'Typed.js',
+        href: 'https://mattboldt.com/demos/typed-js/',
+        desc: 'Text typing animation'
+      },
+      {
         name: 'Unsplash',
         href: 'https://source.unsplash.com/',
         desc: 'Simple embedding of free random images of any size'
@@ -123,65 +165,64 @@ const cheats = [
     name: 'Javascript',
     links: [
       {
+        name: 'Javascript MDN',
+        sub: 'Docs',
+        href: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+        desc: 'Mozilla Developer Network docs'
+      },
+      {
+        name: 'javascript.info',
+        sub: 'Docs',
+        href: 'http://javascript.info/',
+        desc: 'Examples and tutorials'
+      },
+      {
+        name: 'Service Workers',
+        sub: 'Docs',
+        href:
+          'https://developers.google.com/web/fundamentals/primers/service-workers/',
+        desc:
+          'Offline availability for the web (<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">more</a>'
+      },
+      {
         name: 'Axios',
+        sub: 'Libraries',
         href: 'https://www.npmjs.com/package/axios',
         desc: 'Promise based HTTP client for the browser and node.js'
       },
       {
+        name: 'Brain.js',
+        sub: 'Libraries',
+        href: 'https://github.com/BrainJS',
+        desc: 'Machine learning'
+      },
+      {
         name: 'Electron',
+        sub: 'Libraries',
         href: 'https://electronjs.org/',
         desc:
           'A framework for creating native applications with web technologies like JavaScript, HTML, and CSS'
       },
       {
+        name: 'GraphQL',
+        sub: 'Libraries',
+        href: 'https://graphql.org/',
+        desc:
+          'A query language for your API (also see <a href="https://www.apollographql.com/">Apollo</a>'
+      },
+      {
+        name: 'TensorFlow.js',
+        sub: 'Libraries',
+        href: 'https://js.tensorflow.org/',
+        desc:
+          'JS library for training and deploying ML models in the browser and on Node.js'
+      },
+      {
         name: 'TypeScript',
-        sub: '',
+        sub: 'Libraries',
         href: 'https://www.typescriptlang.org/',
         desc:
           'TypeScript is a superset of JavaScript which primarily provides optional static typing, classes and interfaces.'
-      }
-    ]
-  },
-  {
-    id: 'refs',
-    name: 'Quick Refs',
-    links: [
-      {
-        name: 'Angular',
-        href: 'https://angular.io/docs'
-      },
-      {
-        name: 'Bootstrap 4',
-        href: 'https://getbootstrap.com/docs/4.2/getting-started/introduction/'
-      },
-      {
-        name: 'Emmet',
-        href: 'https://docs.emmet.io/'
-      },
-      {
-        name: 'Flexbox',
-        href: 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/'
-      },
-      {
-        name: 'Javascript MDN',
-        href: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
-      },
-      {
-        name: 'javascript.info',
-        href: 'http://javascript.info/'
-      },
-      {
-        name: 'Media Queries',
-        href:
-          'https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries'
-      },
-      {
-        name: 'Node',
-        href: 'https://nodejs.org/en/docs/'
-      },
-      {
-        name: 'React',
-        href: 'https://reactjs.org/docs/getting-started.html'
       }
     ]
   },
@@ -204,6 +245,18 @@ const cheats = [
         desc: "Redux DevTools for debugging application's state changes"
       },
       {
+        name: 'JSX',
+        sub: 'Docs',
+        href: 'https://reactjs.org/docs/jsx-in-depth.html',
+        desc: 'JSX Overview with examples'
+      },
+      {
+        name: 'React',
+        sub: 'Docs',
+        href: 'https://reactjs.org/docs/getting-started.html',
+        desc: 'main docs'
+      },
+      {
         name: 'classnames',
         sub: 'NPM',
         href: 'https://www.npmjs.com/package/classnames',
@@ -222,12 +275,6 @@ const cheats = [
         href: 'https://www.npmjs.com/package/react-router-dom',
         desc:
           'DOM bindings for <a href="https://reacttraining.com/react-router/">React Router</a>'
-      },
-      {
-        name: 'JSX',
-        sub: 'References',
-        href: 'https://reactjs.org/docs/jsx-in-depth.html',
-        desc: 'JSX Overview with examples'
       }
     ]
   },
@@ -239,7 +286,7 @@ const cheats = [
         name: 'firebase',
         sub: 'NPM',
         href: 'https://www.npmjs.com/package/firebase',
-        desc: 'Firebase JavaScript library for web and Node.j'
+        desc: 'Firebase JavaScript library for web and Node.js'
       },
       {
         name: 'redux',
@@ -305,6 +352,12 @@ const cheats = [
     id: 'vscode',
     name: 'VS Code',
     links: [
+      {
+        name: 'Emmet',
+        sub: 'Docs',
+        href: 'https://docs.emmet.io/',
+        desc: 'Plugins and snippets for high-speed coding'
+      },
       {
         name: 'Bracket Pair Colorizer',
         sub: 'Extensions',

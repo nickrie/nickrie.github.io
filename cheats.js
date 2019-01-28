@@ -40,13 +40,13 @@ const cheats = [
         name: 'Modern JavaScript From The Beginning',
         href: 'https://www.udemy.com/modern-javascript-from-the-beginning/',
         desc:
-          '<a href="https://www.udemy.com/certificate/UC-6K4LFQ48/"><i class="fas fa-trophy"></i></a> Completed!',
-        descHref: ''
+          '<a href="https://www.udemy.com/certificate/UC-6K4LFQ48/"><i class="fas fa-trophy"></i></a> Completed!'
       },
       {
         name: 'React Front to Back',
         href: 'https://www.udemy.com/react-front-to-back/',
-        desc: 'In Progress...'
+        desc:
+          '<a href="https://www.udemy.com/certificate/UC-087LC9TJ/"><i class="fas fa-trophy"></i></a> Complete!'
       }
     ]
   },
@@ -270,6 +270,18 @@ const cheats = [
         desc: 'Set up a modern web app by running one command'
       },
       {
+        name: 'firebase',
+        sub: 'NPM',
+        href: 'https://www.npmjs.com/package/firebase',
+        desc: 'Firebase JavaScript library for web and Node.js'
+      },
+      {
+        name: 'firebaseui-web-react',
+        sub: 'NPM',
+        href: 'https://github.com/firebase/firebaseui-web-react',
+        desc: 'React Wrapper for firebaseUI Web'
+      },
+      {
         name: 'react-router-dom',
         sub: 'NPM',
         href: 'https://www.npmjs.com/package/react-router-dom',
@@ -283,16 +295,17 @@ const cheats = [
     name: 'Redux',
     links: [
       {
-        name: 'firebase',
-        sub: 'NPM',
-        href: 'https://www.npmjs.com/package/firebase',
-        desc: 'Firebase JavaScript library for web and Node.js'
-      },
-      {
         name: 'redux',
         sub: 'NPM',
         href: 'https://www.npmjs.com/package/redux',
         desc: 'A predictable state container for JavaScript apps'
+      },
+      {
+        name: 'redux-auth-wrapper',
+        sub: 'NPM',
+        href: 'https://www.npmjs.com/package/redux-auth-wrapper',
+        desc:
+          'Auth library for React+Redux, for firebase auth see the react-redux-firebase <a href="https://github.com/prescottprue/react-redux-firebase/blob/master/docs/recipes/routing.md">Routing Recipies</a>'
       },
       {
         name: 'react-redux',

@@ -28,29 +28,6 @@ const cheats = [
     ]
   },
   {
-    id: 'courses',
-    name: 'Courses',
-    links: [
-      {
-        name: 'Bootstrap 4 From Scratch',
-        href: 'https://www.udemy.com/bootstrap-4-from-scratch-with-5-projects/',
-        desc: 'In Progress...'
-      },
-      {
-        name: 'Modern JavaScript From The Beginning',
-        href: 'https://www.udemy.com/modern-javascript-from-the-beginning/',
-        desc:
-          '<a href="https://www.udemy.com/certificate/UC-6K4LFQ48/"><i class="fas fa-trophy"></i></a> Completed!'
-      },
-      {
-        name: 'React Front to Back',
-        href: 'https://www.udemy.com/react-front-to-back/',
-        desc:
-          '<a href="https://www.udemy.com/certificate/UC-087LC9TJ/"><i class="fas fa-trophy"></i></a> Complete!'
-      }
-    ]
-  },
-  {
     id: 'data',
     name: 'Data',
     links: [
@@ -249,6 +226,12 @@ const cheats = [
         sub: 'Docs',
         href: 'https://reactjs.org/docs/jsx-in-depth.html',
         desc: 'JSX Overview with examples'
+      },
+      {
+        name: 'Formik',
+        sub: 'Docs',
+        href: 'https://jaredpalmer.com/formik/',
+        desc: 'Build forms in React, without tears'
       },
       {
         name: 'React',

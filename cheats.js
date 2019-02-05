@@ -322,9 +322,19 @@ const cheats = [
     name: 'Testing',
     links: [
       {
+        name: 'deepFreeze',
+        href: 'https://github.com/substack/deep-freeze',
+        desc: 'recursively Object.freeze() on objects and functions'
+      },
+      {
         name: 'Jasmine',
         href: 'https://jasmine.github.io/',
         desc: 'Behavior-driven development framework'
+      },
+      {
+        name: 'Jest',
+        href: 'https://jestjs.io/',
+        desc: 'A delightful JavaScript Testing Framework with a focus on simplicity'
       },
       {
         name: 'JSONPlaceholder',

@@ -409,6 +409,27 @@ const cheats = [
         desc: 'VS Code plugin for prettier/prettier'
       }
     ]
+  },
+  {
+    id: 'vue',
+    name: 'Vue.js',
+    links: [
+      {
+        name: 'Vue.js devtools',
+        href: 'https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en',
+        desc: 'Chrome devtools extension for debugging Vue.js applications.'
+      },
+      {
+        name: 'Vue.js Guide',
+        href: 'https://vuejs.org/v2/guide/',
+        desc: 'Main Docs entry point'
+      },
+      {
+        name: 'Vuter',
+        href: 'https://marketplace.visualstudio.com/items?itemName=octref.vetur',
+        desc: 'VS Code extension with snippets, syntax-highlighting, etc'
+      }
+    ]
   }
 ];
 

@@ -1,6 +1,17 @@
 // Cheat Sheet link definitions object
 const cheats = [
   {
+    id: 'chromeos',
+    name: 'Chrome OS',
+    links: [
+      {
+        name: 'CrOS Updates Serving',
+        href: 'https://cros-updates-serving.appspot.com/',
+        desc: 'Table detailing version rollout'
+      }
+    ]
+  },
+  {
     id: 'css',
     name: 'CSS/SaSS',
     links: [

@@ -185,6 +185,13 @@ const cheats = [
         desc: 'Machine learning'
       },
       {
+        name: 'D3: Data Driven Documents',
+        sub: 'Libraries',
+        href: 'https://d3js.org/',
+        desc:
+          'D3.js is a JavaScript library for manipulating documents based on data'
+      },
+      {
         name: 'Electron',
         sub: 'Libraries',
         href: 'https://electronjs.org/',
@@ -210,7 +217,14 @@ const cheats = [
         sub: 'Libraries',
         href: 'https://www.typescriptlang.org/',
         desc:
-          'TypeScript is a superset of JavaScript which primarily provides optional static typing, classes and interfaces.'
+          'TypeScript is a superset of JavaScript which primarily provides optional static typing, classes and interfaces'
+      },
+      {
+        name: 'Underscore.js',
+        sub: 'Libraries',
+        href: 'https://underscorejs.org/',
+        desc:
+          'Underscore.js is a utility-belt library for JavaScript that provides support for the usual functional suspects (each, map, reduce, filter...) without extending any core JavaScript objects'
       }
     ]
   },
@@ -329,6 +343,70 @@ const cheats = [
     ]
   },
   {
+    id: 'ruby',
+    name: 'Ruby/Rails',
+    links: [
+      {
+        name: 'Ruby 2.3.3',
+        sub: 'Docs',
+        href: 'https://ruby-doc.org/stdlib-2.3.3/',
+        desc: 'Ruby Standard Library Documentation collection'
+      },
+      {
+        name: 'Ruby on Rails Guides v4.2',
+        sub: 'Docs',
+        href: 'https://guides.rubyonrails.org/v4.2/',
+        desc:
+          'These guides are designed to make you immediately productive with Rails, and to help you understand how all of the pieces fit together'
+      },
+      {
+        name: 'apartment',
+        sub: 'Gems',
+        href: 'https://github.com/influitive/apartment',
+        desc: 'Database multi-tenancy for Rack (and Rails) applications'
+      },
+      {
+        name: 'Haml',
+        sub: 'Gems',
+        href: 'http://haml.info/',
+        desc: 'Beautifully DRY, well-indented, clear markup: templating haiku.'
+      },
+      {
+        name: 'makara',
+        sub: 'Gems',
+        href: 'https://github.com/taskrabbit/makara',
+        desc:
+          'A Read-Write Proxy for Connections; Also provides an ActiveRecord adapter. <a href="http://tech.taskrabbit.com/">http://tech.taskrabbit.com/</a>'
+      },
+      {
+        name: 'paper_trail',
+        sub: 'Gems',
+        href: 'https://github.com/paper-trail-gem/paper_trail',
+        desc: 'Track changes to your rails models'
+      },
+      {
+        name: 'rspec-rails',
+        sub: 'Gems',
+        href: 'https://github.com/rspec/rspec-rails',
+        desc:
+          'RSpec for Rails-3+ <a href="http://relishapp.com/rspec/rspec-rails">http://relishapp.com/rspec/rspec-rails</a>'
+      },
+      {
+        name: 'sidekiq',
+        sub: 'Gems',
+        href: 'https://github.com/mperham/sidekiq',
+        desc:
+          'Simple, efficient background processing for Ruby <a href="http://sidekiq.org">http://sidekiq.org</a>'
+      },
+      {
+        name: 'squeel',
+        sub: 'Gems',
+        href: 'https://github.com/activerecord-hackery/squeel',
+        desc: 'Active Record, improved. Live again :)'
+      }
+    ]
+  },
+  {
     id: 'test',
     name: 'Testing',
     links: [
@@ -345,7 +423,8 @@ const cheats = [
       {
         name: 'Jest',
         href: 'https://jestjs.io/',
-        desc: 'A delightful JavaScript Testing Framework with a focus on simplicity'
+        desc:
+          'A delightful JavaScript Testing Framework with a focus on simplicity'
       },
       {
         name: 'JSONPlaceholder',
@@ -427,7 +506,8 @@ const cheats = [
     links: [
       {
         name: 'Vue.js devtools',
-        href: 'https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en',
+        href:
+          'https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en',
         desc: 'Chrome devtools extension for debugging Vue.js applications.'
       },
       {
@@ -437,7 +517,8 @@ const cheats = [
       },
       {
         name: 'Vuter',
-        href: 'https://marketplace.visualstudio.com/items?itemName=octref.vetur',
+        href:
+          'https://marketplace.visualstudio.com/items?itemName=octref.vetur',
         desc: 'VS Code extension with snippets, syntax-highlighting, etc'
       }
     ]
@@ -460,7 +541,7 @@ const cheats = [
   }
 */
 
-let defaultGroupId = 'design';
+let defaultGroupId = 'js';
 
 cheats.forEach(group => {
   const elGroups = document.getElementById('cheat-list-groups');
